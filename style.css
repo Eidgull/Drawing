@@ -1,0 +1,83 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #4498f7;
+}
+
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px   
+
+}
+.tools-area{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(205, 198, 198);
+    height: 50px;
+    margin: 0 10px;
+}
+.tools{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    text-align: center;
+}
+input[type="color"]{
+    border: none;
+    width: 30px;
+    height: 20px;
+    background-color: transparent;
+    
+}
+input[type="color"]:hover{
+    cursor: pointer;
+    background-color: lightgray;  
+}
+
+
+
+.buttons button{
+    
+    margin-top: 10px;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.save{
+    background-color: #4498f7;
+    
+}
+
+.Clear:hover{
+    background-color: lightblue;
+
+}
+
+.active{
+    color: #4498f7;
+}
+#brush-white{
+    background-color: blue;
+    color: blue;
+}
+.drew-area canvas{
+    width: 800px;  
+    height: 450px;
+}
+ 
